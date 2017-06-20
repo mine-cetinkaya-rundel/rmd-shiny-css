@@ -1,12 +1,12 @@
 ---
-title: "R Markdown with Shiny"
+title: "R Markdown with Shiny, CSS one level above"
 output: 
   html_document: 
-    css: ../../custom.css
+    css: ../custom.css
 runtime: shiny
 ---
 
-**CSS STYLING DOES NOT WORK.**
+**CSS NOT APPLIED.**
 
 This is some regular text.
 

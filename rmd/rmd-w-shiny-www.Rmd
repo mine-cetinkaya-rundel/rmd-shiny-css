@@ -1,12 +1,12 @@
 ---
-title: "R Markdown with Shiny"
+title: "R Markdown with Shiny, CSS in www/"
 output: 
   html_document: 
     css: www/custom.css
 runtime: shiny
 ---
 
-**CSS STYLING WORKS FOR ITEMIZED LIST, NOT FOR DIVS.**
+**CSS WORKS FOR ITEMIZED LIST, NOT FOR DIVS.**
 
 This is some regular text.
 
