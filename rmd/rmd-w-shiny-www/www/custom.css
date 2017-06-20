@@ -1,0 +1,18 @@
+body { 
+  background-color: gray;
+  color: white;
+  }
+  
+div#boxedtext {
+    background-color: orange;
+    padding: 20px;
+}
+
+div#section-boxedtext {
+    background-color: red;
+    padding: 20px;
+}
+
+ol > li {
+    background: blue;
+}

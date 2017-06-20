@@ -1,0 +1,33 @@
+---
+title: "R Markdown with Shiny"
+output: 
+  html_document: 
+    css: ../../custom.css
+runtime: shiny
+---
+
+**CSS STYLING DOES NOT WORK.**
+
+This is some regular text.
+
+And a Shiny app.
+
+```{r echo=FALSE}
+library(shiny)
+shinyAppDir(system.file("examples/01_hello", package = "shiny"))
+```
+
+<div id="boxedtext">
+This uses `div id="boxedtext"`.
+It is expected to be ORANGE, and but it's RED, styled as `div id="section-boxedtext"`.
+</div>
+
+<div id="section-boxedtext">
+This uses `div id="section-boxedtext"`.
+It is expected to be RED, and it's not styled at all.
+</div>
+
+This is an itemized list with blue background, and it works as expected:
+
+1. Item 1
+2. Item 2

@@ -1,0 +1,25 @@
+---
+title: "R Markdown without Shiny"
+output: 
+  html_document: 
+    css: ../../custom.css
+---
+
+**EVERYTHING WORKS AS EXPECTED.**
+
+This is some regular text.
+
+<div id="boxedtext">
+This uses `div id="boxedtext"`.
+It is expected to be ORANGE, and it works as expected.
+</div>
+
+<div id="section-boxedtext">
+This uses `div id="section-boxedtext"`.
+It is expected to be RED, and it works as expected.
+</div>
+
+This is an itemized list with blue background, and it works as expected:
+
+1. Item 1
+2. Item 2
